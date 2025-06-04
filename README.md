@@ -25,10 +25,10 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ## Extract (Pengambilan Data) – 15 Poin
 - **Sumber Data:**
-  - Dataset *Mental Health* – Kaggle
-  - Dataset *Suicide Rates* – Kaggle
-  - WHO Nutrition Data – WHO (CSV URL)
-  - Human Development Index – Our World in Data (CSV URL)
+  - Dataset *Mental Health* – Kaggle (https://www.kaggle.com/datasets/imtkaggleteam/mental-health)
+  - Dataset *Suicide Rates* – Kaggle (https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021?resource=download)
+  - WHO Nutrition Data – WHO (https://www.who.int/data/nutrition/nlis/data-search)
+  - Human Development Index – Our World in Data (https://ourworldindata.org/grapher/human-development-index?time=latest)
 - **Metode:**
   - Unduh langsung dari URL (CSV)
   - Unduh file ZIP dari Kaggle → ekstraksi dan baca CSV pertama
