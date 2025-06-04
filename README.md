@@ -75,3 +75,5 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ## Kode Program – 10 Poin
 - **Struktur Folder & File:**
+  - PipeLine : https://colab.research.google.com/drive/11a5ZdBbXYfCgAcKAtqkGuURgs0CXjkQA?usp=sharing
+  - Machine Learning : https://colab.research.google.com/drive/1KEcULm3MVCqHXBeLA8TonuOG-AoTcFL7?usp=sharing
