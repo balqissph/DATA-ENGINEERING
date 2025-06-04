@@ -1,12 +1,12 @@
 # DATA-ENGINEERING
-# 📊 Proyek ETL: Analisis Dampak Tingkat HDI dan GDP terhadap Kesehatan Mental
+# Proyek ETL: Analisis Dampak Tingkat HDI dan GDP terhadap Kesehatan Mental
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini bertujuan mengembangkan pipeline ETL untuk menganalisis korelasi antara indeks pembangunan manusia (HDI), GDP, dan tingkat kesehatan mental masyarakat secara global. Data diambil dari berbagai sumber resmi untuk diolah menjadi dataset bersih dan siap dianalisis atau digunakan sebagai dasar pengambilan kebijakan.
 
 ---
 
-## 🎯 Manfaat Data / Use Case
+## Manfaat Data / Use Case
 - **Tujuan Proyek:** Menyediakan data terintegrasi mengenai kesejahteraan dan kesehatan mental berdasarkan indikator HDI dan GDP.
 - **Manfaat:**
   - Mendukung visualisasi hubungan demografis dan kesehatan mental.
@@ -15,15 +15,15 @@ Proyek ini bertujuan mengembangkan pipeline ETL untuk menganalisis korelasi anta
 
 ---
 
-## 📈 Serving Analisis
+## Serving Analisis
 Data hasil ETL disimpan dalam format CSV dan dapat divisualisasikan menggunakan tools seperti Tableau atau Power BI untuk mengevaluasi tren kesehatan mental di berbagai negara berdasarkan indeks pembangunan dan pendapatan.
 
-## 🤖 Serving Machine Learning
+## Serving Machine Learning
 Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatihan model machine learning, misalnya klasifikasi risiko gangguan mental berdasarkan variabel demografi dan sosial ekonomi.
 
 ---
 
-## 🔍 Extract (Pengambilan Data) – 15 Poin
+## Extract (Pengambilan Data) – 15 Poin
 - **Sumber Data:**
   - Dataset *Mental Health* – Kaggle
   - Dataset *Suicide Rates* – Kaggle
@@ -38,7 +38,7 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ---
 
-## 🧹 Transform (Pembersihan & Transformasi) – 15 Poin
+## Transform (Pembersihan & Transformasi) – 15 Poin
 - **Pembersihan:**
   - Menghapus baris duplikat (`drop_duplicates`)
   - Menghapus baris kosong (`dropna`)
@@ -49,7 +49,7 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ---
 
-## 💾 Load (Pemindahan ke Target) – 15 Poin
+## Load (Pemindahan ke Target) – 15 Poin
 - **Target:**
   - CSV (digunakan sebagai format output utama)
 - **Metode:**
@@ -60,7 +60,7 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ---
 
-## 🏗️ Arsitektur / Workflow ETL – 15 Poin
+## Arsitektur / Workflow ETL – 15 Poin
 - **Alur Modular:**
   - `source_data_from_csv()` – Baca dari URL atau lokal
   - `source_data_from_kaggle()` – Unduh dan ekstraksi ZIP dari Kaggle
@@ -73,5 +73,5 @@ Data bersih yang dihasilkan disimpan dalam CSV dan siap digunakan untuk pelatiha
 
 ---
 
-## 🧑‍💻 Kode Program – 10 Poin
+## Kode Program – 10 Poin
 - **Struktur Folder & File:**
