@@ -133,5 +133,5 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk pelatihan mod
 |------------------------------------|-------------|----------------------|
 | Balqis Amanda Putri Hambali        | 234311008   | Project Manager      |
 | Cantikka May Aristianti            | 234311010   | Data Analyst         |
-| Dionesyus Divo Crista Marvino      | 234311012   | Data Analyst         |
+| Dionesyus Divo Crista Marvino      | 234311012   | Data Engineer        |
 | Shaffa Dwiaji Feryansyah Putra     | 234311028   | Data Engineer        |
