@@ -96,7 +96,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk pelatihan mod
 
 - **Referensi Notebook:**  
   - ETL Pipeline:  
-    https://colab.research.google.com/drive/11a5ZdBbXYfCgAcKAtqkGuURgs0CXjkQA?usp=sharing  
+    https://colab.research.google.com/drive/1fDnC6YKmCtZwOcNrFpUZdqOFloB20OaC?usp=sharing 
   - Machine Learning:  
     https://colab.research.google.com/drive/1KEcULm3MVCqHXBeLA8TonuOG-AoTcFL7?usp=sharing  
 
