@@ -30,12 +30,12 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk pelatihan mod
   - Suicide Rates – Kaggle  
     https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021  
   - WHO Nutrition Data – WHO  
-    https://www.who.int/data/nutrition/nlis/data-search  
+    https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=table
   - Human Development Index – Our World in Data  
     https://ourworldindata.org/grapher/human-development-index?time=latest
 
 - **Metode Pengambilan:**  
-  - File CSV dari URL dan lokal  
+  - File CSV dari URL  
   - File ZIP dari Kaggle diunduh menggunakan `requests` lalu diekstrak menggunakan `zipfile`  
   - Pengambilan otomatis dari beberapa format dan encoding  
 
