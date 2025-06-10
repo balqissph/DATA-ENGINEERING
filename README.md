@@ -23,7 +23,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Extract (Pengambilan Data) – 15 Poin  
+## Extract (Pengambilan Data) 
 - **Sumber Data:**  
   - Mental Health – Kaggle  
     https://www.kaggle.com/datasets/imtkaggleteam/mental-health  
@@ -44,7 +44,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Transform (Pembersihan & Transformasi) – 15 Poin  
+## Transform (Pembersihan & Transformasi)   
 - **Pembersihan:**  
   - Menghapus baris duplikat dan baris kosong menggunakan metode seperti dropna().  
   - Mengganti nama kolom agar seragam untuk proses penggabungan (contoh: country menjadi Entity dan year menjadi Year).
@@ -55,7 +55,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Load (Pemindahan ke Target) – 15 Poin  
+## Load (Pemindahan ke Target) 
 - **Target:**  
   - Data gabungan pada Postgresql sebagai output utama yang siap dianalisis atau diproses lebih lanjut oleh model machine learning.
 
@@ -65,7 +65,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Arsitektur / Workflow ETL – 15 Poin  
+## Arsitektur / Workflow ETL  
 - **Alur Modular:**  
   - Proses ETL diringkas dalam sebuah fungsi transformasi() yang mencakup langkah-langkah membaca, membersihkan, menggabungkan, dan mengubah data.
   -  Kode diorganisir secara sekuensial di dalam notebook Google Colab.
@@ -77,7 +77,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Kode Program – 10 Poin  
+## Kode Program  
 - **Struktur Kode:**  
   - Kode untuk ETL dan Machine Learning dipisahkan dalam dua notebook yang berbeda.
   - Penamaan variabel dan fungsi bersifat deskriptif (contoh: dfHDI, df_agg, transformasi).
