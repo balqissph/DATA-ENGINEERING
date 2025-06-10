@@ -57,11 +57,15 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ## Load (Pemindahan ke Target) 
 - **Target:**  
-  - Data gabungan pada Postgresql sebagai output utama yang siap dianalisis atau diproses lebih lanjut oleh model machine learning.
+  - Sebuah tabel baru di dalam database pada server Aiven. Tabel ini merupakan output utama yang dapat diakses oleh layanan lain untuk melakukan analisis langsung di database.
 
 - **Metode:**  
-  - Fungsi to_csv() dari pandas digunakan untuk menyimpan hasil ke direktori lokal.  
-  - Data diverifikasi menggunakan df.head() setelah disimpan.  
+  - Fungsi to_sql() dari pandas digunakan untuk menulis data dari DataFrame langsung ke tabel di database PostgreSQL
+  - konfigurasi fungsi to_sql() diatur dengan parameter-parameter kunci:
+    - name diisi dengan yang mendefinisikan nama tabel tujuan
+    - con diisi dengan variabel engine, yaitu objek koneksi dari SQLAlchemy
+      yang telah dikonfigurasi sebelumnya untuk terhubung ke database Aiven
+  - Data diverifikasi dengan membaca 5 baris pertama dari tabel baru tersebut menggunakan pd.read_sql() dan df.head()
 
 ---
 
