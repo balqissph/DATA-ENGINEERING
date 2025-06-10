@@ -40,8 +40,8 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
   - Penanganan file ZIP yang diekstrak secara otomatis.  
 
 - **Penanganan Error:**  
-  - Penanganan kesalahan dasar dan logging proses untuk memastikan data berhasil diunduh dan dibaca.
-
+  - Saat melakukan download data melalui Kaggle, terdapat error dikarenakan     data harus dilakukan ekstraksi terlebih dahulu, oleh karena itu
+    dilakukan ekstraksi data dengan melakukan unzip data setelah melakukan downlaod
 ---
 
 ## Transform (Pembersihan & Transformasi)   
