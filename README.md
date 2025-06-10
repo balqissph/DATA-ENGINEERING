@@ -71,12 +71,12 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ## Arsitektur / Workflow ETL  
 - **Alur Modular:**  
-  - Proses ETL diringkas dalam sebuah fungsi transformasi() yang mencakup langkah-langkah membaca, membersihkan, menggabungkan, dan mengubah data.
+  - Proses ETL diringkas dalam sebuah fungsi transformasi() yang mencakup langkah-langkah membaca, membersihkan, mengisi, menggabungkan, dan mengubah data.
   -  Kode diorganisir secara sekuensial di dalam notebook Google Colab.
 
 - **Tools yang Digunakan:**  
   - Python 3.x  
-  - Library: `pandas`, `numpy`, `wget`, `kagglehub`, `os`, `json`, `logging`, `scikit-learn`, `matplotlib`.
+  - Library: `pandas`, `numpy`, `wget`, `kaggle`, `os`, `json`, `logging`, `scikit-learn`, `matplotlib`.
   - Google Colab digunakan sebagai environment untuk pemrosesan dan eksperimen.
 
 ---
