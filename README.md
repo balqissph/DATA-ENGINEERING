@@ -29,7 +29,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
     https://www.kaggle.com/datasets/imtkaggleteam/mental-health  
   - Suicide Rates – Kaggle  
     https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021  
-  - WHO Nutrition Data – WHO  
+  - Gross Domestic Product - Our World in Data
     https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=table
   - Human Development Index – Our World in Data  
     https://ourworldindata.org/grapher/human-development-index?time=latest
