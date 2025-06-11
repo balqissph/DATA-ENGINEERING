@@ -9,7 +9,7 @@ Proyek ini bertujuan untuk mengembangkan pipeline ETL (Extract, Transform, Load)
 ## Manfaat Data / Use Case  
 - **Tujuan Proyek:** Menyediakan data terintegrasi yang menghubungkan indikator sosial-ekonomi (HDI, GDP) dengan data demografi terkait kasus bunuh diri dan pertumbuhan populasi.  
 - **Manfaat:**  
-  - Mendukung analisis dan visualisasi hubungan antara pembangunan suatu negara dengan tren populasinya.  
+  - Menjelaskan hubungan antara pembangunan dan dinamika populasi.  
   - Menjadi dasar untuk model prediktif guna memproyeksikan tren populasi di masa depan berdasarkan variabel sosial-ekonomi.  
   - Menyediakan insight dan rekomendasi berbasis data untuk pemerintah, lembaga kesehatan mental, dan organisasi perencanaan pembangunan.
 
@@ -23,6 +23,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
+**Pipeline**
 ## Extract (Pengambilan Data) 
 - **Sumber Data:**  
   - Mental Health – Kaggle  
