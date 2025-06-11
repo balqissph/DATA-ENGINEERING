@@ -2,7 +2,7 @@
 # Proyek : Analisis Dampak Tingkat HDI dan GDP terhadap Pertumbuhan dan Dinamika Populasi di Berbagai Negara
 
 ## Deskripsi Proyek  
-Proyek ini bertujuan untuk mengembangkan pipeline ETL (Extract, Transform, Load) untuk menganalisis korelasi antara Indeks Pembangunan Manusia (HDI), Produk Domestik Bruto (GDP), dengan tren angka bunuh diri secara global. Data yang relevan dikumpulkan dari berbagai sumber, kemudian dibersihkan, diintegrasikan, dan disiapkan untuk analisis lebih lanjut serta untuk melatih model machine learning. Hasil akhir dari proyek ini adalah sebuah dataset yang siap pakai sebagai dasar untuk pengambilan kebijakan berbasis data terkait kesehatan mental dan pembangunan sosial-ekonomi.
+Proyek ini bertujuan untuk mengembangkan pipeline ETL (Extract, Transform, Load) untuk menganalisis korelasi antara Indeks Pembangunan Manusia (HDI), Produk Domestik Bruto (GDP), dengan tren angka bunuh diri secara global. Data yang relevan dikumpulkan dari berbagai sumber, kemudian dibersihkan, diintegrasikan, dan disiapkan untuk analisis lebih lanjut serta untuk melatih model machine learning. Hasil akhir dari proyek ini adalah sebuah dataset yang siap pakai sebagai dasar untuk pengambilan kebijakan berbasis data terkait kesehatan mental dan pembangunan sosial-ekonomi. 
 
 ---
 
