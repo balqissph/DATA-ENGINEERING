@@ -24,7 +24,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 ---
 
 # Pipeline
-## Extract (Pengambilan Data) 
+## Extract ( Pengambilan Data ) 
 - **Sumber Data:**  
   - Mental Health – Kaggle  
     https://www.kaggle.com/datasets/imtkaggleteam/mental-health  
@@ -45,7 +45,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
     dilakukan ekstraksi data dengan melakukan unzip data setelah melakukan downlaod
 ---
 
-## Transform (Pembersihan & Transformasi)   
+## Transform ( Pembersihan & Transformasi )   
 - **Pembersihan:**  
   - Menghapus baris duplikat dan baris kosong menggunakan metode seperti dropna().  
   - Mengganti nama kolom agar seragam untuk proses penggabungan (contoh: country menjadi Entity dan year menjadi Year).
@@ -56,7 +56,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ---
 
-## Load (Pemindahan ke Target) 
+## Load ( Pemindahan ke Target ) 
 - **Target:**  
   - Sebuah tabel baru di dalam database pada server Aiven. Tabel ini merupakan output utama yang dapat diakses oleh layanan lain untuk melakukan analisis langsung di database.
 
