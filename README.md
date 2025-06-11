@@ -40,9 +40,6 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
   - File dari Kaggle diunduh menggunakan kaggle datasets download.  
   - Penanganan file ZIP yang diekstrak secara otomatis.  
 
-- **Penanganan Error:**  
-  - Saat melakukan download data melalui Kaggle, terdapat error dikarenakan     data harus dilakukan ekstraksi terlebih dahulu, oleh karena itu
-    dilakukan ekstraksi data dengan melakukan unzip data setelah melakukan downlaod
 ---
 
 ## Transform ( Pembersihan & Transformasi )   
@@ -103,7 +100,7 @@ Dataset yang telah dibersihkan dan distandardisasi digunakan untuk melatih model
 
 ## Kontributor
 
-| Nama Lengkap                        | NIM         | Peran                |
+| Nama Lengkap                       | NIM         | Peran                |
 |------------------------------------|-------------|----------------------|
 | Balqis Amanda Putri Hambali        | 234311008   | Project Manager      |
 | Cantikka May Aristianti            | 234311010   | Data Analyst         |
